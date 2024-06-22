@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<person>
+    <name>Vatsal Gadaria</name>
+    <age>22</age>
+    <nationality>Indian</nationality>
+    <hobbies>
+        <hobby>Hobby 1</hobby>
+        <hobby>Hobby 2</hobby>
+        <hobby>Hobby 3</hobby>
+    </hobbies>
+</person>

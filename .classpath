@@ -6,8 +6,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="sqlFiles"/>
 	<classpathentry kind="lib" path="C:/Users/vatsa/Downloads/apache-log4j-2.23.1-bin/log4j-api-2.23.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vatsa/Downloads/apache-log4j-2.23.1-bin/log4j-core-2.23.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vatsa/eclipse-workspace/issAssignment/src/config"/>
+	<classpathentry kind="lib" path="C:/Users/vatsa/Downloads/json-20240303.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vatsa/Downloads/ojdbc11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vatsa/Downloads/mysql-connector-j-8.4.0/mysql-connector-j-8.4.0/mysql-connector-j-8.4.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

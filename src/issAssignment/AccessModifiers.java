@@ -1,17 +1,20 @@
 package issAssignment;
 
-import org.apache.logging.log4j.*;
-
-
 public class AccessModifiers {
-	final Logger lgr = LogManager.getLogger(AccessModifiers.class.getName());
-	
-	// default/no modifier allows function to be accessed anywhere withing same package
-	int testFunction() {
-		return 5;
-	}
-	
-	int b = testFunction();
-	lgr.info(b);
-	System.out.println(b);
+    // Private variable: accessible only within this class
+    private String privateVar = "Private Variable";
+    
+    // Default (package-private) variable: accessible within the same package
+    String defaultVar = "Default Variable";
+    
+    // Protected variable: accessible within the same package and subclasses
+    protected String protectedVar = "Protected Variable";
+    
+    // Public variable: accessible from anywhere
+    public String publicVar = "Public Variable";
+    
+    // Getter for private variable
+    public String getPrivateVar() {
+        return privateVar;
+    }
 }
